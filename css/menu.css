@@ -1,0 +1,16 @@
+html,
+body{
+    background-color: black;
+}
+
+#menu-background{
+    opacity:.2;
+    display:inline;
+    position:absolute;
+    z-index:0;
+}
+
+.menu-table{
+    position:relative;
+    z-index:1;
+}

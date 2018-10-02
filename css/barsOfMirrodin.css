@@ -118,6 +118,20 @@ header.masthead .bg-circle-4 {
   }
 }
 
+.set-list{
+  list-style: none;
+  display:inline-flex;
+}
+
+.margin-auto{
+  margin:auto auto;
+}
+
+.set-symbols{
+  width: 15vw;
+  min-width:256px;
+}
+
 .bg-primary {
   background-color: #ee0979 !important;
 }

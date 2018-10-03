@@ -4,13 +4,21 @@ body{
 }
 
 #menu-background{
+    top:0;
     opacity:.2;
     display:inline;
     position:absolute;
     z-index:0;
 }
 
+.menu-title{
+    font-size: 32px;
+    font-family: fantasy;
+}
+
 .menu-table{
     position:relative;
     z-index:1;
+    margin: 10vh 10vw 0 10vw;
+    width:80vw;
 }

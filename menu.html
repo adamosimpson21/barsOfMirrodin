@@ -19,7 +19,7 @@
   <link href="css/menu.css" rel="stylesheet">
 </head>
 <body>
-<img src="img/barbackground.jpg" alt="" id="menu-background">
+<!--<div class="bg-image">-->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
   <div class="container">
     <a class="navbar-brand" href="index.html">Bars of Mirrodin</a>
@@ -38,10 +38,8 @@
     </div>
   </div>
 </nav>
-<div class="menu-body">
 
   <!--Drinks-->
-
   <table class="table table-hover table-dark menu-table">
     <thead>
     <tr>
@@ -95,9 +93,11 @@
   </table>
 
   <!--Food-->
-  <p class="menu-title">Munchies</p>
   <table class="table table-hover table-dark menu-table">
     <thead>
+    <tr>
+      <th class="menu-title">Munchies</th>
+    </tr>
     <tr>
       <th scope="col">Name</th>
       <th scope="col">Description</th>
@@ -146,69 +146,67 @@
   </table>
 
   <!--Dessert-->
-  <p class="menu-title">Sweets</p>
-  <table class="table table-hover table-dark menu-table">
-    <thead>
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Description</th>
-      <th scope="col">Ingredients</th>
-      <th scope="col">Price</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <th scope="row">A big pretzel</th>
-      <td>Burgdoggen t-bone tenderloin fatback, frankfurter shank andouille porchetta pork belly shankle prosciutto. </td>
-      <td>Oak by Absolut, Cabernet, Orange zest</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th scope="row">Bigger Pretzel</th>
-      <td> Turkey corned beef spare ribs picanha. </td>
-      <td>Blue Curacao, Watermelon liquor, and Stoli</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th scope="row">Dank Steel</th>
-      <td>Hamburger swine sirloin pork loin t-bone turkey tail filet mignon tongue shank shoulder doner kielbasa landjaeger. </td>
-      <td>Steel Reserve, Hennessy, and Crown Royal</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th scope="row">A Fifth of Dawn</th>
-      <td>Landjaeger pancetta bacon shankle, tongue pork loin bresaola jerky jowl tri-tip boudin fatback shoulder doner.</td>
-      <td>Tequila Sunrise served in a dawn bottle</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th scope="row">Poisonous Punch</th>
-      <td>Capicola porchetta tail, ham hock biltong jowl landjaeger pastrami ground round frankfurter rump cow short ribs bresaola.</td>
-      <td>Steel Reserve, Hennessy, and Crown Royal</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th scope="row">Dark Steel Burger Challenge</th>
-      <td> Brisket turducken swine pork, tri-tip hamburger ribeye short ribs. T-bone landjaeger tenderloin pork loin. </td>
-      <td>Steel Reserve, Hennessy, and Crown Royal</td>
-      <td>50</td>
-    </tr>
-    </tbody>
-  </table>
-</div>
+    <table class="table table-hover table-dark menu-table">
+      <thead>
+      <tr>
+        <th class="menu-title">Sweets</th>
+      </tr>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Ingredients</th>
+        <th scope="col">Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row">A big pretzel</th>
+        <td>Burgdoggen t-bone tenderloin fatback, frankfurter shank andouille porchetta pork belly shankle prosciutto. </td>
+        <td>Oak by Absolut, Cabernet, Orange zest</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <th scope="row">Bigger Pretzel</th>
+        <td> Turkey corned beef spare ribs picanha. </td>
+        <td>Blue Curacao, Watermelon liquor, and Stoli</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <th scope="row">Dank Steel</th>
+        <td>Hamburger swine sirloin pork loin t-bone turkey tail filet mignon tongue shank shoulder doner kielbasa landjaeger. </td>
+        <td>Steel Reserve, Hennessy, and Crown Royal</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <th scope="row">A Fifth of Dawn</th>
+        <td>Landjaeger pancetta bacon shankle, tongue pork loin bresaola jerky jowl tri-tip boudin fatback shoulder doner.</td>
+        <td>Tequila Sunrise served in a dawn bottle</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <th scope="row">Poisonous Punch</th>
+        <td>Capicola porchetta tail, ham hock biltong jowl landjaeger pastrami ground round frankfurter rump cow short ribs bresaola.</td>
+        <td>Steel Reserve, Hennessy, and Crown Royal</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <th scope="row">Dark Steel Burger Challenge</th>
+        <td> Brisket turducken swine pork, tri-tip hamburger ribeye short ribs. T-bone landjaeger tenderloin pork loin. </td>
+        <td>Steel Reserve, Hennessy, and Crown Royal</td>
+        <td>50</td>
+      </tr>
+      </tbody>
+    </table>
 
+  <!-- Footer -->
+  <footer class="py-5 bg-black mt-4">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy; BandsWithLegends 2018</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+<!--</div>-->
 
-
-
-
-
-<!-- Footer -->
-<footer class="py-5 bg-black">
-  <div class="container">
-    <p class="m-0 text-center text-white small">Copyright &copy; BandsWithLegends 2018</p>
-  </div>
-  <!-- /.container -->
-</footer>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>

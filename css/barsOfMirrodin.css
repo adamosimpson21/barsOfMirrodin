@@ -135,3 +135,8 @@ header.masthead .masthead-content .rounded-pill{
   box-shadow: 0 0 0 0.2rem rgba(50, 56, 55, 0.5);
 }
 
+footer .footer-social-icon{
+  width: 100%;
+  height: auto;
+}
+
